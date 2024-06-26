@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>javaMall</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  
+  <context-param>
+  	<param-name>uploadPath</param-name>
+  	<param-value>D:\2024.업무자료\eclipse-workspace\javaMall\src\main\webapp\imageServer\image\</param-value>
+  </context-param>
+  <context-param>
+  	<param-name>imageServer</param-name>
+  	<param-value>http://127.0.0.1:8080/javaMall/imageServer/image/</param-value>
+  </context-param>
+  
+  <context-param>
+  	<param-name>MssqlDriver</param-name>
+  	<param-value>com.microsoft.sqlserver.jdbc.SQLServerDriver</param-value>
+  </context-param>
+  <context-param>
+  	<param-name>MssqlUrl</param-name>
+  	<param-value>jdbc:sqlserver://116.122.156.46:51433;trustServerCertificate=true;</param-value>
+  </context-param>
+  <context-param>
+  	<param-name>MssqlUser</param-name>
+  	<param-value>jdoh302</param-value>
+  </context-param>
+  <context-param>
+  	<param-name>MssqlPw</param-name>
+  	<param-value>Itemmania1324%^</param-value>
+  </context-param>
+  <context-param>
+  	<param-name>mainDatabase</param-name>
+  	<param-value>jdoh302db</param-value>
+  </context-param>
+</web-app>
