@@ -12,11 +12,11 @@
   
   <context-param>
   	<param-name>uploadPath</param-name>
-  	<param-value>D:\2024.업무자료\eclipse-workspace\javaMall\src\main\webapp\imageServer\image\</param-value>
+  	<param-value>업로드 경로</param-value>
   </context-param>
   <context-param>
   	<param-name>imageServer</param-name>
-  	<param-value>http://127.0.0.1:8080/javaMall/imageServer/image/</param-value>
+  	<param-value>이미지 서버 경로</param-value>
   </context-param>
   
   <context-param>
@@ -25,18 +25,18 @@
   </context-param>
   <context-param>
   	<param-name>MssqlUrl</param-name>
-  	<param-value>jdbc:sqlserver://116.122.156.46:51433;trustServerCertificate=true;</param-value>
+  	<param-value>jdbc:sqlserver://ip:port;trustServerCertificate=true;</param-value>
   </context-param>
   <context-param>
   	<param-name>MssqlUser</param-name>
-  	<param-value>jdoh302</param-value>
+  	<param-value>계정명</param-value>
   </context-param>
   <context-param>
   	<param-name>MssqlPw</param-name>
-  	<param-value>Itemmania1324%^</param-value>
+  	<param-value>비밀번호</param-value>
   </context-param>
   <context-param>
   	<param-name>mainDatabase</param-name>
-  	<param-value>jdoh302db</param-value>
+  	<param-value>접속 DB</param-value>
   </context-param>
 </web-app>
